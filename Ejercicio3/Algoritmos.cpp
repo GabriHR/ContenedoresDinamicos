@@ -12,5 +12,7 @@ int main() {
     for(auto i : vec) {
         cout << i << " ";
     }
+    cout << "\nELemento con valor mas alto: " << *max_element(vec.begin(), vec.end()) << endl;
 
+    return 0;
 }

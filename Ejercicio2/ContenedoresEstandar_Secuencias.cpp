@@ -12,5 +12,12 @@ int main() {
     stk.push(5.5);
     stk.push(6.6);
 
+    cout << "Despues de push, el elemento de mayor valor es: " << stk.top() << endl;
 
+    stk.pop();
+    cout << "Despues de pop, el elemento de mayor valor es: " << stk.top() << endl;
+
+    cout << "Top element is: " << stk.top() << endl;
+
+    return 0;
 }

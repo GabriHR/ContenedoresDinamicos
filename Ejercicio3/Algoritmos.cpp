@@ -8,4 +8,9 @@ int main() {
 
     sort(vec.begin(), vec.end());
 
+    cout << "Vector ordenado: ";
+    for(auto i : vec) {
+        cout << i << " ";
+    }
+
 }

@@ -8,5 +8,9 @@ int main() {
 
     auto vec =make_shared<vector<int>>();
 
+    for (int i = 1; i <= 10; ++i) {
+        vec->push_back(i);
+    }
 
+    for_each(vec->begin(), vec->end(), [&](int &m) { m = square(m); });
 }

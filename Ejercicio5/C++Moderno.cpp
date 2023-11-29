@@ -12,5 +12,12 @@ int main() {
         vec->push_back(i);
     }
 
-    for_each(vec->begin(), vec->end(), [&](int &m) { m = square(m); });
+    for_each(vec->begin(),vec->end(),[&](int &m){ m=square(m); });
+
+
+    for (const auto &m : *vec) {
+        cout << m << " ";
+    }
+
+    return 0;
 }

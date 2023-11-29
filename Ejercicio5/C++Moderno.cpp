@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 int main() {
-    auto square = [](int n) { return n * n; };
+    auto square = [](int m) { return m * m; };
 
     auto vec =make_shared<vector<int>>();
 
